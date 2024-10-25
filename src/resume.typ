@@ -166,7 +166,7 @@
   dates: "",
 ) = {
   pad[
-    *#role*, #name (#link("https://" + url)[#url]) #h(1fr) #dates
+    *#role*, #name #link("https://" + url)[#url] #h(1fr) #dates
   ]
 }
 
